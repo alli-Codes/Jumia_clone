@@ -1,5 +1,5 @@
 <template>
-  <div id="header" class="h-20 bg-white flex items-center justify-evenly px-20">
+  <div id="header" class="h-20 bg-white flex items-center justify-evenly">
     <img src="../assets/logo.png" class="w-32">
 
     <div id="search__container" class="h-10 flex items-center justify-center flex-auto  w-64 px-20 gap-2 ">
