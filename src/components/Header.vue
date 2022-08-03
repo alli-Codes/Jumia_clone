@@ -3,7 +3,10 @@
     <h1 class=" bg-red-400 w-40">LOGO</h1>
 
     <div id="search__container" class="flex items-center justify-center flex-auto w-64 px-20 gap-8 ">
-      <input type="text" class="p-3 flex-1 border-solid border border-gray-300 rounded">
+      <div id="search__inner" class="flex flex-1 items-center px-3 border-solid border border-gray-300 rounded">
+        <Icon icon="eva:search-outline" width="24" color="gray" />
+        <input type="text" class="p-3 flex-1 outline-none" placeholder="Search products, brands and categories">
+      </div>
       <button class="bg-orange-400 p-3 w-24 font-semibold text-white rounded">SEARCH</button>
     </div>
 
@@ -25,7 +28,11 @@
 </template>
 
 <script>
+import { Icon } from '@iconify/vue';
 export default {
   name: "HeaderTag",
+  components: {
+    Icon
+  }
 };
 </script>
