@@ -1,9 +1,9 @@
 <template>
   <div id="header" class="h-20 bg-white flex items-center justify-evenly px-20">
-    <h1 class=" bg-red-400 w-40">LOGO</h1>
+    <img src="../assets/logo.png" class="w-40">
 
-    <div id="search__container" class="flex items-center justify-center flex-auto w-64 px-20 gap-8 ">
-      <div id="search__inner" class="flex flex-1 items-center px-3 border-solid border border-gray-300 rounded">
+    <div id="search__container" class="flex items-center justify-center flex-auto  w-64 px-20 gap-8 ">
+      <div id="search__inner" class="bg-white flex flex-1 items-center px-3 border-solid border border-gray-300 rounded">
         <Icon icon="eva:search-outline" width="24" color="gray" />
         <input type="text" class="p-3 flex-1 outline-none" placeholder="Search products, brands and categories">
       </div>
