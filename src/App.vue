@@ -15,7 +15,7 @@ export default {
     name: 'App',
     components: {
         HeaderTag,
-        BannerItem
+        BannerItem,
         }
 }
 </script>
