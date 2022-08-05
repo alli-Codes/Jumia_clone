@@ -1,6 +1,6 @@
 <template>
     <div class="w-full flex flex-col items-center flex flex-col">
-        <div class="w-4/5">
+        <div class="w-9/12">
             <HeaderTag />
             <BannerItem />
         </div>

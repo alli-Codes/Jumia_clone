@@ -1,5 +1,5 @@
 <template>
-    <div class=" h-full w-56 rounded p-2 text-xs flex flex-col justify-between shadow-md">
+    <div class=" h-full w-72 rounded p-2 text-xs flex flex-col justify-between shadow-md">
             <a href="" class="flex items-center gap-1 cursor-pointer hover:text-[#f68b1e]"><Icon icon="carbon:apple" width="20" /><p>Supermarket</p></a>
             <a href="" class="flex items-center gap-1 cursor-pointer hover:text-[#f68b1e]"><Icon icon="icon-park-solid:lipstick" width="20" /><p>Health & Beauty</p></a>
             <a href="" class="flex items-center gap-1 cursor-pointer hover:text-[#f68b1e]"><Icon icon="fluent:home-20-regular" width="20" /><p>Home & Office</p></a>

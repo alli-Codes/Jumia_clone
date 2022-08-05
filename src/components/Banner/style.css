@@ -26,7 +26,34 @@
   .swiper-slide img {
     display: block;
     width: 100%;
-    height: 100%;
     object-fit: cover;
   }
+
+  .swiper-button-prev, .swiper-button-next{
+    color: transparent;
+    width: 3rem;
+    height: 100%;
+    top: 0;
+  }
+
+  .swiper-button-prev::after, .swiper-button-next::after{
+    font-size: 10px;
+    font-weight: bold;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: all .5s ease;
+  }
   
+  .swiper-button-prev:hover::after, .swiper-button-next:hover::after{
+    color: white;
+    background-color: rgb(51, 51, 51);
+  }
+
+  .swiper-pagination-bullet-active{
+    background-color: #f68b1e;
+  }

@@ -6,26 +6,33 @@
     <swiper
     :slidesPerView="1"
     :spaceBetween="30"
+    :effect="'fade'"
+    :autoplay="{
+      delay: 3500,
+      disableOnInteraction: false,
+    }"
     :loop="true"
     :pagination="{
       clickable: true,
     }"
     :navigation="true"
     :modules="modules"
-    class="mySwiper w-full h-full"
+    class="mySwiper w-full h-full bg-green-400 rounded"
     >
         <swiper-slide><img src="/images/img1.jpg" alt=""></swiper-slide>
-        <swiper-slide>Hello</swiper-slide>
+        <swiper-slide><img src="/images/img2.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="/images/img3.jpg" alt=""></swiper-slide>
     </swiper>
 </template>
 
 <script>
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
+import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./style.css";
-import { Pagination, Navigation } from "swiper";
+import { Autoplay, EffectFade, Pagination, Navigation } from "swiper";
 export default {
     name: 'AdvertItem',
     components: {
@@ -34,7 +41,7 @@ export default {
     },
     setup() {
         return {
-            modules: [Pagination, Navigation],
+            modules: [Autoplay, EffectFade, Pagination, Navigation],
         };
     },
 }
