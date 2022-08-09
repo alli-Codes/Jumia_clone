@@ -35,6 +35,7 @@
     width: 3rem;
     height: 100%;
     top: 0;
+    margin: 0;
   }
 
   .swiper-button-prev::after, .swiper-button-next::after{

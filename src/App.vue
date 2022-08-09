@@ -3,6 +3,7 @@
         <HeaderTag />
         <div class="w-9/12">
             <BannerItem />
+            <ProductContainerAds />
         </div>
     </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import HeaderTag from './components/Header.vue'
 import BannerItem from './components/Banner/Banner.vue'
+import ProductContainerAds from './components/Product_Ads/ProductContainerAds.vue'
 
 export default {
     name: 'App',
     components: {
-        HeaderTag,
-        BannerItem,
-        }
+    HeaderTag,
+    BannerItem,
+    ProductContainerAds
+}
 }
 </script>
