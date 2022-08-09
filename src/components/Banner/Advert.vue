@@ -17,11 +17,12 @@
     }"
     :navigation="true"
     :modules="modules"
-    class="mySwiper w-full h-full bg-green-400 rounded"
+    class="mySwiper w-full h-full rounded"
     >
         <swiper-slide><img src="/images/img1.jpg" alt=""></swiper-slide>
         <swiper-slide><img src="/images/img2.jpg" alt=""></swiper-slide>
         <swiper-slide><img src="/images/img3.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="/images/img4.jpg" alt=""></swiper-slide>
     </swiper>
 </template>
 

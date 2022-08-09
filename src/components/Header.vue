@@ -1,6 +1,7 @@
 <template>
-  <div id="header" class="h-20 bg-white flex items-center justify-evenly">
-    <img src="../assets/logo.png" class="w-32">
+  <div id="header" class="bg-white h-20 w-full flex items-stretch justify-center">
+    <div class="w-9/12 flex items-center justify-evenly">
+      <img src="../assets/logo.png" class="w-32">
 
     <div id="search__container" class="h-10 flex items-center justify-center flex-auto  w-64 px-20 gap-2 ">
       <div id="search__inner" class="bg-white flex flex-1 items-center px-3 self-stretch border-solid border border-gray-300 rounded">
@@ -29,6 +30,7 @@
           <p>Cart</p>
         </a>
       </div>
+    </div>
     
   </div>
 </template>

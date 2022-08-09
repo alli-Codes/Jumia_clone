@@ -1,7 +1,7 @@
 <template>
-    <div class="w-full flex flex-col items-center flex flex-col">
+    <div class="bg-[#f5f5f5] w-full flex flex-col items-center flex flex-col">
+        <HeaderTag />
         <div class="w-9/12">
-            <HeaderTag />
             <BannerItem />
         </div>
     </div>
