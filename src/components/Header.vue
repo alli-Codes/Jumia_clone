@@ -1,5 +1,5 @@
 <template>
-  <div id="header" class="bg-white h-20 w-full flex items-stretch justify-center">
+  <div id="header" class="bg-white h-20 w-full flex items-stretch justify-center sticky top-0 z-[1000]">
     <div class="w-9/12 flex items-center justify-evenly">
       <img src="../assets/logo.png" class="w-32">
 

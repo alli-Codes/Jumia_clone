@@ -27,7 +27,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "./product.css";
+// import "./product.css";
 import { Pagination, Navigation } from "swiper";
 
 export default {
