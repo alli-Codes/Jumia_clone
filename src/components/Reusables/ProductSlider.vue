@@ -1,9 +1,10 @@
 <template>
-    <div class=" h-72 w-full flex flex-col">
+    <div class="
+     h-72 w-full flex flex-col">
         <swiper :slidesPerView="6" :spaceBetween="10" :navigation="true" :modules="modules"
             class=" product__section flex-1 w-full mySwiper p-4">
 
-            <swiper-slide class="bg-transparent">
+            <!-- <swiper-slide class="bg-transparent">
                 <Products />
             </swiper-slide>
             <swiper-slide class="bg-transparent">
@@ -29,7 +30,13 @@
             </swiper-slide>
             <swiper-slide class="bg-transparent">
                 <Products />
+            </swiper-slide> -->
+
+            <swiper-slide class="bg-transparent" v-for="item in productData">
+                <Products :description="item.description" :price="item.price" :formerPrice="item.formerPrice"
+                    :key="item.index" />
             </swiper-slide>
+
         </swiper>
     </div>
 </template>
@@ -50,6 +57,9 @@ export default {
         Products,
         Swiper,
         SwiperSlide,
+    },
+    props: {
+        productData: Array
     },
     setup() {
         return {
