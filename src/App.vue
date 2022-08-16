@@ -5,6 +5,7 @@
             <BannerItem />
             <ProductContainerAds />
             <Product_Container />
+            <FlashSales />
         </div>
     </div>
 </template>
@@ -14,6 +15,7 @@ import HeaderTag from './components/Header.vue'
 import BannerItem from './components/Banner/Banner.vue'
 import ProductContainerAds from './components/Product_Ads/ProductContainerAds.vue'
 import Product_Container from './components/Products_Containers/Product_Container.vue';
+import FlashSales from './components/Flash-Sales/FlashSales-Container'
 
 export default {
     name: 'App',
@@ -21,7 +23,8 @@ export default {
     HeaderTag,
     BannerItem,
     ProductContainerAds,
-    Product_Container
+    Product_Container,
+    FlashSales
 }
 }
 </script>

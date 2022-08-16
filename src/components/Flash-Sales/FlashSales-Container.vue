@@ -1,17 +1,18 @@
 <template>
-    <div class="bg-white my-4 rounded shadow-md">
-        <p class="py-2 px-4 font-semibold text-xl">Recommended for you</p>
+    <div>
+        <header>
+            <p>Flash Sales</p>
+        </header>
         <ProductSlider />
     </div>
 </template>
 
 <script>
 import ProductSlider from '../Reusables/ProductSlider.vue'
-
 export default {
-    name: 'Product-Container',
+    name: 'Flash-Sales',
     components: {
         ProductSlider
-    },
+    }
 }
 </script>
