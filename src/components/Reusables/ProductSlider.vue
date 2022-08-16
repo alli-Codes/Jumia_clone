@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white h-72 w-full flex flex-col">
+    <div class=" h-72 w-full flex flex-col">
         <swiper :slidesPerView="6" :spaceBetween="10" :navigation="true" :modules="modules"
             class=" product__section flex-1 w-full mySwiper p-4">
 
